@@ -9,6 +9,16 @@ export default function Home() {
                 <a>
                     revalidated page
                 </a>
+            </NextLink><br/>
+            <NextLink href="/dynamic/aplha/" legacyBehavior>
+                <a>
+                    dynamic pre rendered page
+                </a>
+            </NextLink><br/>
+            <NextLink href="/dynamic/kilo/" legacyBehavior>
+                <a>
+                    dynamic ISR page
+                </a>
             </NextLink>
         </>
     )

@@ -33,3 +33,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/.idea/modules.xml
+/.idea/reproduction-link-inconsistency.iml
+/.idea/vcs.xml

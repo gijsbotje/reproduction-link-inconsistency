@@ -12,8 +12,8 @@ export default function Demo1() {
             <NextLink href="/">
                 home
             </NextLink><br/>
-            <NextLink href="/demo1">
-                demo1
+            <NextLink href="/revalidate">
+                Revalidated page
             </NextLink>
         </>
     )
@@ -22,7 +22,6 @@ export default function Demo1() {
 export const getStaticProps = () => {
     return {
         props: {},
-        revalidate: 12 * 60 * 60,
     }
 }
 

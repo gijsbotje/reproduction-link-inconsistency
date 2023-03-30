@@ -8,6 +8,16 @@ export default function Revalidate() {
             <p>Revalidates every 30 seconds</p>
             <NextLink href="/">
                 home
+            </NextLink><br/>
+            <NextLink href="/dynamic/aplha/" legacyBehavior>
+                <a>
+                    dynamic pre rendered page
+                </a>
+            </NextLink><br/>
+            <NextLink href="/dynamic/kilo/" legacyBehavior>
+                <a>
+                    dynamic ISR page
+                </a>
             </NextLink>
         </>
     )
