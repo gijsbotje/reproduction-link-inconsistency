@@ -9,7 +9,7 @@ export default function Revalidate() {
             <NextLink href="/">
                 home
             </NextLink><br/>
-            <NextLink href="/dynamic/aplha/" legacyBehavior>
+            <NextLink href="/dynamic/alpha/" legacyBehavior>
                 <a>
                     dynamic pre rendered page
                 </a>
