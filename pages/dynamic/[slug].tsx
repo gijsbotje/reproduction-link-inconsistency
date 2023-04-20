@@ -30,8 +30,8 @@ export const getStaticPaths = () => {
         paths: [
             {params: { slug: 'alpha/' }},
             {params: { slug: 'beta/' }},
-            {params: { slug: 'charlie/' }},
-            {params: { slug: 'delta/' }},
+            {params: { slug: 'charlie' }},
+            {params: { slug: 'delta' }},
         ],
         fallback: 'blocking',
     }
