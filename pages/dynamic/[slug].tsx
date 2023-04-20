@@ -33,6 +33,6 @@ export const getStaticPaths = () => {
             {params: { slug: '/charlie' }},
             {params: { slug: 'delta' }},
         ],
-        fallback: 'blocking',
+        fallback: true,
     }
 }
